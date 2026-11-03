@@ -1,0 +1,2 @@
+# Preserve exact distribution bytes so integrity hashes survive every checkout.
+* -text

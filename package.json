@@ -1,0 +1,14 @@
+{
+  "name": "lupa-net",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local .NET assembly inspection and C#/IL decompilation powered by ILSpy",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "verify": "node scripts/verify.cjs",
+    "manifest": "node scripts/manifest.cjs"
+  },
+  "engines": { "node": ">=22" }
+}

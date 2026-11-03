@@ -1,0 +1,15 @@
+.runtime/
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+samples/
+evidence/
+exports/
+*.evtx
+*.pcap
+*.pcapng
+*.dmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ICSharpCode.Decompiler</id>
+    <version>11.1.0.9782</version>
+    <title>ILSpy Decompiler Engine</title>
+    <authors>ILSpy Contributors</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>DecompilerNuGetPackageIcon.png</icon>
+    <readme>PackageReadme.md</readme>
+    <projectUrl>https://github.com/icsharpcode/ILSpy/</projectUrl>
+    <description>ICSharpCode.Decompiler is the decompiler engine used in ILSpy.</description>
+    <copyright>Copyright 2011-2026 AlphaSierraPapa</copyright>
+    <tags>C# Decompiler ILSpy</tags>
+    <repository type="git" url="https://github.com/icsharpcode/ILSpy.git" branch="refs/heads/master" commit="a6909b2e1062d2404a52711926fa74030bd96119" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Collections.Immutable" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Metadata" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Lupa.NET — static analysis</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Lupa.NET, home"><span class="brand-mark" aria-hidden="true">L<span>·</span></span><span>Lupa<span class="brand-net">.NET</span><small>BINARY INSPECTION</small></span></a>
+    <div class="workspace-label"><span class="live-dot"></span> Local workspace <span class="divider">/</span> Static analysis</div>
+    <button class="button secondary compact details-toggle" id="details-toggle" aria-expanded="false" aria-controls="inspector">Details</button>
+    <button class="button primary compact" id="open-top">＋ Open file</button>
+    <input id="file-input" type="file" accept=".dll,.exe,.bin,.net,.winmd" hidden>
+  </header>
+
+  <div class="app-layout">
+    <aside class="sidebar" aria-label="Assembly explorer">
+      <div class="panel-heading"><span>EXPLORER</span><span id="type-count" class="small-count">—</span></div>
+      <label class="search-box"><span aria-hidden="true">⌕</span><input id="tree-search" type="search" placeholder="Search types or methods…" aria-label="Search types or methods" disabled><kbd>/</kbd></label>
+      <div class="assembly-name" id="assembly-name"><span class="assembly-icon" aria-hidden="true">◇</span><span>No assembly open</span></div>
+      <nav id="tree" class="tree" aria-label="Types and methods"><p class="muted tree-empty">Types and methods will appear here.</p></nav>
+      <div class="sidebar-footer"><span class="shield" aria-hidden="true">◈</span><div>Inspect without execution<small>Files are read by the local analyzer.</small></div></div>
+    </aside>
+
+    <main class="main-panel">
+      <section class="empty-state" id="empty-state">
+        <div class="empty-grid" aria-hidden="true"></div>
+        <div class="empty-content">
+          <span class="eyebrow">UNDERSTAND WHAT IS INSIDE</span>
+          <div class="hero-symbol" aria-hidden="true"><span>{</span><i>IL</i><span>}</span></div>
+          <h1>A closer look<br>inside your assembly.</h1>
+          <p>Explore classes, read reconstructed C#, and inspect the IL instructions of .NET files in a local analysis workspace.</p>
+          <div class="hero-actions"><button class="button primary" id="open-hero">＋ Open .NET file</button><button class="button secondary" id="open-demo">Open demo <span aria-hidden="true">↗</span></button></div>
+          <div class="drop-hint"><span aria-hidden="true">↥</span> Or drop a file into this window <span id="file-limit"></span></div>
+          <div class="feature-strip"><span><b>01</b> Browse code</span><span><b>02</b> Inspect references</span><span><b>03</b> Record findings</span></div>
+        </div>
+      </section>
+
+      <section id="analysis-view" class="analysis-view" hidden aria-label="Assembly contents">
+        <header class="document-header"><div><div class="eyebrow" id="document-kind">.NET ASSEMBLY</div><h1 id="document-name"></h1><p id="document-subtitle"></p></div><button class="icon-button" id="export-report" title="Download JSON report" aria-label="Download JSON report">↓ <span>Report</span></button></header>
+        <div class="summary-strip"><div><span>ARCHITECTURE</span><strong id="metric-architecture">—</strong></div><div><span>FRAMEWORK</span><strong id="metric-framework">—</strong></div><div><span>TYPES / METHODS</span><strong id="metric-counts">—</strong></div><div><span>SIZE</span><strong id="metric-bytes">—</strong></div></div>
+        <div class="warnings" id="warnings" hidden role="note"></div>
+        <div class="code-toolbar"><div class="tabs" role="tablist" aria-label="View"><button id="tab-cs" class="tab active" role="tab" aria-selected="true" aria-controls="code-panel" data-tab="cs">C#</button><button id="tab-il" class="tab" role="tab" aria-selected="false" aria-controls="code-panel" data-tab="il">IL</button><button id="tab-metadata" class="tab" role="tab" aria-selected="false" aria-controls="code-panel" data-tab="metadata">Metadata</button><button id="tab-strings" class="tab" role="tab" aria-selected="false" aria-controls="strings-panel" data-tab="strings">Strings</button></div><button class="icon-button" id="download-code" aria-label="Download displayed content as text" title="Download as text">↓ <span>.txt</span></button></div>
+        <div class="code-caption"><span id="code-path">Select a method in the explorer</span><span id="code-token"></span></div>
+        <section class="code-panel" id="code-panel" role="tabpanel" aria-labelledby="tab-cs" tabindex="0"><div class="line-numbers" id="line-numbers" aria-hidden="true">1</div><pre><code id="code-content">// Select a method in the explorer to read its code.</code></pre></section>
+        <section class="strings-panel" id="strings-panel" role="tabpanel" aria-labelledby="tab-strings" hidden><label class="search-box"><span aria-hidden="true">⌕</span><input id="string-search" type="search" placeholder="Filter string contents…" aria-label="Filter strings"></label><p class="strings-count" id="strings-count"></p><div id="strings-list" class="strings-list"></div></section>
+      </section>
+    </main>
+
+    <aside class="inspector" id="inspector" aria-label="Details and notes">
+      <div class="panel-heading">FILE &amp; CONTEXT</div>
+      <section class="inspector-section"><h2>File identity</h2><dl><dt>SHA-256</dt><dd id="detail-sha" class="hash-value">Open a file to calculate its identity.</dd><dt>MVID</dt><dd id="detail-mvid" class="hash-value">—</dd><dt>Assembly version</dt><dd id="detail-version">—</dd></dl><button class="text-button" id="copy-sha" disabled>Copy SHA-256 <span aria-hidden="true">⧉</span></button></section>
+      <section class="inspector-section"><h2>References <span class="small-count" id="reference-count">0</span></h2><div id="references" class="references"><p class="muted">Dependencies declared in the assembly.</p></div></section>
+      <section class="inspector-section notes-section"><label for="notes"><h2>Your notes <span class="note-dot" aria-hidden="true"></span></h2></label><textarea id="notes" placeholder="Record your findings…" disabled spellcheck="false"></textarea><small id="notes-state">Saved in this browser, keyed by SHA-256.</small></section>
+      <div class="inspector-notice"><span aria-hidden="true">ⓘ</span><p>C# is a reconstruction. Obfuscated names and missing components may limit the results.</p></div>
+    </aside>
+  </div>
+  <footer class="statusbar"><div class="status-message" id="status" role="status" aria-live="polite"><span class="status-indicator"></span><span id="status-text">Connecting to the local analyzer…</span></div><span id="engine-version">Lupa.NET</span></footer>
+  <div class="drop-overlay" id="drop-overlay" hidden><div><span aria-hidden="true">↓</span><h2>Drop the file to analyze</h2><p>Static inspection of a .NET assembly.</p></div></div>
+  <div class="toast" id="toast" role="alert" hidden></div>
+</body>
+</html>

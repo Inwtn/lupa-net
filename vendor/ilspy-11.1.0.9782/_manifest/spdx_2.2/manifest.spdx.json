@@ -1,0 +1,706 @@
+{
+  "files": [
+    {
+      "fileName": "./package/services/metadata/core-properties/nuget.psmdcp",
+      "SPDXID": "SPDXRef-File--package-services-metadata-core-properties-nuget.psmdcp-843715A964D586913A0AD7782AAEE4AE065F7F42",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d61ce54c7767ba473a8127706c5c41ae76cd42f5dab579f18856cdf0ca013d5d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "843715a964d586913a0ad7782aaee4ae065f7f42"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./lib/netstandard2.0/ICSharpCode.Decompiler.xml",
+      "SPDXID": "SPDXRef-File--lib-netstandard2.0-ICSharpCode.Decompiler.xml-EDBE0D160DD5A461D77C8B08C6F3E53E558154DF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "20b63f0cc62dc2fffae9d3589e13bdf083c9550ca9ec3d718f748c5b03abad79"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "edbe0d160dd5a461d77c8b08c6f3e53e558154df"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./DecompilerNuGetPackageIcon.png",
+      "SPDXID": "SPDXRef-File--DecompilerNuGetPackageIcon.png-025486105FFB81427E1D651D259F0ABB5B9C25AA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a405719968acc92a330412b4c1c8ebc8d2c30996c4027c6ba9035db2424bee6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "025486105ffb81427e1d651d259f0abb5b9c25aa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./_rels/.rels",
+      "SPDXID": "SPDXRef-File---rels-.rels-52DD7317C5D4F6B8297E4CFF50508F00FF0ED97E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "75ec267ebc17b58daad7a58c0e335a370f872305f92b93ca27f7918ea52e353a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "52dd7317c5d4f6b8297e4cff50508f00ff0ed97e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ICSharpCode.Decompiler.nuspec",
+      "SPDXID": "SPDXRef-File--ICSharpCode.Decompiler.nuspec-C7DC5FDE9B59E5D6F87694038F9C06D66852F5F2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "73342037762503908bbb041748678e709071f82ff8568770920f63dbfe42847a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c7dc5fde9b59e5d6f87694038f9c06d66852f5f2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./lib/netstandard2.0/ICSharpCode.Decompiler.dll",
+      "SPDXID": "SPDXRef-File--lib-netstandard2.0-ICSharpCode.Decompiler.dll-DBBE1E85608B43FAFA3120F9D16A525896FF4401",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "38e6abf7497845d79d9d01d56351a3203991356de1d3496b8c51142f495e9f9c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dbbe1e85608b43fafa3120f9d16a525896ff4401"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./[Content_Types].xml",
+      "SPDXID": "SPDXRef-File---Content-Types-.xml-56F3C4FFD2D136B70BC85BCEBEAEAE4CFC8020FA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d2063fbe89f8726a57334fdadfd3da559f1e9ece452d80b3855c59e833428d14"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "56f3c4ffd2d136b70bc85bcebeaeae4cfc8020fa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./PackageReadme.md",
+      "SPDXID": "SPDXRef-File--PackageReadme.md-554125656BFFA3811FC6C25B1D205E55EEB2C5AD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "504fdad448956bd908727bd6bbaeae761815258a900f3d173db91810e11d6f7c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "554125656bffa3811fc6c25b1d205e55eeb2c5ad"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "System.Collections.Immutable",
+      "SPDXID": "SPDXRef-Package-4F32DB8906295523841AB08E15C7CF8B39908721FB558EE4D6F2C949561A1BC9",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "9.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Collections.Immutable@9.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.SourceLink.GitHub",
+      "SPDXID": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "10.0.401",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.SourceLink.GitHub@10.0.401"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.NETCore.Platforms",
+      "SPDXID": "SPDXRef-Package-846C7B671CE0E884005EF626B209AD4D24EBA1FF032B6BA0242D62EC1793AA97",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "TunnelVisionLabs.ReferenceAssemblyAnnotator",
+      "SPDXID": "SPDXRef-Package-EAE852B1299E2919295B31D4C79A091A057A136CFCF7AA87AB74DC1E36BF49BB",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.0.0-alpha.160",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/TunnelVisionLabs.ReferenceAssemblyAnnotator@1.0.0-alpha.160"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.SourceLink.Common",
+      "SPDXID": "SPDXRef-Package-22B90BFA5C8A28A013C17121C6432D009ABA2F80CF7307735F72E72D37DDD298",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "10.0.401",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.SourceLink.Common@10.0.401"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Reflection.Metadata",
+      "SPDXID": "SPDXRef-Package-53EC9024C9A4C081A67B5A48610E68D31B991D223F828885FCBA6C35649DA5AF",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "9.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Reflection.Metadata@9.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.Sbom.Targets",
+      "SPDXID": "SPDXRef-Package-187EFE2F1CB79DC28F70C62C1D8E0B6D840AF97A56D8D381EC4C4E7A968129CB",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.Sbom.Targets@4.1.5"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Buffers",
+      "SPDXID": "SPDXRef-Package-C0E420B56038015F05DDD9E1028A2F59F56D41B7505585A63BEA54613F27FBBF",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.6.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Buffers@4.6.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Numerics.Vectors",
+      "SPDXID": "SPDXRef-Package-1AA6488259668EB8A79953E748D49C63EBB17673F7821DC5FD0516EE1BB1EEA2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.6.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Numerics.Vectors@4.6.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Memory",
+      "SPDXID": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.6.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Memory@4.6.3"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "SPDXID": "SPDXRef-Package-0F2FFC23FD49B51C5D518CCC3A69640DB9B3C9285480E67252401DA07AF082D0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.1.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.CodeAnalysis.NetAnalyzers",
+      "SPDXID": "SPDXRef-Package-746251EFBDB768D81781306C8922D3913C1ACE2732CEB6286C24B5A2B61FEE49",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "10.0.401",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.CodeAnalysis.NetAnalyzers@10.0.401"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "ICSharpCode.Decompiler",
+      "SPDXID": "SPDXRef-Package-6254151EF9FB52F9E6C4BDB6A08751D872852B134EB155BF3710D81A1F2CB29C",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "11.1.0.9782",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/ICSharpCode.Decompiler@11.1.0.9782"
+        }
+      ],
+      "supplier": "Organization: ILSpy Contributors"
+    },
+    {
+      "name": "Microsoft.NETCore.App.Ref",
+      "SPDXID": "SPDXRef-Package-610F23DB63BE8491DA72EF5E8EB40CEEC12EF5FBE464C9EE38FDB325EA45EAC2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.NETCore.App.Ref@8.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.Build.Tasks.Git",
+      "SPDXID": "SPDXRef-Package-AE8319B7E4A6DA709C479391D548003EAE7B7EA1766D60F3DC192B2F5FC8943F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "10.0.401",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.Build.Tasks.Git@10.0.401"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.IO.Hashing",
+      "SPDXID": "SPDXRef-Package-796327269B4236A133EA8E2DBC5D4011FF157C2B0E7959F72123742D3E86C14F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "10.0.12",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.IO.Hashing@10.0.12"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "NETStandard.Library",
+      "SPDXID": "SPDXRef-Package-7FB8593FF8500851C8134780E1D4FFFA51D20C3770D3B4BBE0CE4C31BA6A9CE0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/NETStandard.Library@2.0.3"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "ICSharpCode.Decompiler",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ac1cb2d078cb67a0effd4e9fb3a7861a0c9dfbe9"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "11.1.0.9782",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/ILSpy%20Contributors/spdx.org/ICSharpCode.Decompiler@11.1.0.9782?tag_id=9f96e9bc-cc0c-44eb-b987-53c05df12f42"
+        }
+      ],
+      "supplier": "Organization: ILSpy Contributors",
+      "hasFiles": [
+        "SPDXRef-File--package-services-metadata-core-properties-nuget.psmdcp-843715A964D586913A0AD7782AAEE4AE065F7F42",
+        "SPDXRef-File--PackageReadme.md-554125656BFFA3811FC6C25B1D205E55EEB2C5AD",
+        "SPDXRef-File---rels-.rels-52DD7317C5D4F6B8297E4CFF50508F00FF0ED97E",
+        "SPDXRef-File--DecompilerNuGetPackageIcon.png-025486105FFB81427E1D651D259F0ABB5B9C25AA",
+        "SPDXRef-File--ICSharpCode.Decompiler.nuspec-C7DC5FDE9B59E5D6F87694038F9C06D66852F5F2",
+        "SPDXRef-File--lib-netstandard2.0-ICSharpCode.Decompiler.dll-DBBE1E85608B43FAFA3120F9D16A525896FF4401",
+        "SPDXRef-File---Content-Types-.xml-56F3C4FFD2D136B70BC85BCEBEAEAE4CFC8020FA",
+        "SPDXRef-File--lib-netstandard2.0-ICSharpCode.Decompiler.xml-EDBE0D160DD5A461D77C8B08C6F3E53E558154DF"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-7FB8593FF8500851C8134780E1D4FFFA51D20C3770D3B4BBE0CE4C31BA6A9CE0",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-796327269B4236A133EA8E2DBC5D4011FF157C2B0E7959F72123742D3E86C14F",
+      "spdxElementId": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-796327269B4236A133EA8E2DBC5D4011FF157C2B0E7959F72123742D3E86C14F",
+      "spdxElementId": "SPDXRef-Package-AE8319B7E4A6DA709C479391D548003EAE7B7EA1766D60F3DC192B2F5FC8943F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-6254151EF9FB52F9E6C4BDB6A08751D872852B134EB155BF3710D81A1F2CB29C",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-610F23DB63BE8491DA72EF5E8EB40CEEC12EF5FBE464C9EE38FDB325EA45EAC2",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-746251EFBDB768D81781306C8922D3913C1ACE2732CEB6286C24B5A2B61FEE49",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0F2FFC23FD49B51C5D518CCC3A69640DB9B3C9285480E67252401DA07AF082D0",
+      "spdxElementId": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0F2FFC23FD49B51C5D518CCC3A69640DB9B3C9285480E67252401DA07AF082D0",
+      "spdxElementId": "SPDXRef-Package-53EC9024C9A4C081A67B5A48610E68D31B991D223F828885FCBA6C35649DA5AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0F2FFC23FD49B51C5D518CCC3A69640DB9B3C9285480E67252401DA07AF082D0",
+      "spdxElementId": "SPDXRef-Package-AE8319B7E4A6DA709C479391D548003EAE7B7EA1766D60F3DC192B2F5FC8943F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0F2FFC23FD49B51C5D518CCC3A69640DB9B3C9285480E67252401DA07AF082D0",
+      "spdxElementId": "SPDXRef-Package-4F32DB8906295523841AB08E15C7CF8B39908721FB558EE4D6F2C949561A1BC9"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0F2FFC23FD49B51C5D518CCC3A69640DB9B3C9285480E67252401DA07AF082D0",
+      "spdxElementId": "SPDXRef-Package-796327269B4236A133EA8E2DBC5D4011FF157C2B0E7959F72123742D3E86C14F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0F2FFC23FD49B51C5D518CCC3A69640DB9B3C9285480E67252401DA07AF082D0",
+      "spdxElementId": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1AA6488259668EB8A79953E748D49C63EBB17673F7821DC5FD0516EE1BB1EEA2",
+      "spdxElementId": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1AA6488259668EB8A79953E748D49C63EBB17673F7821DC5FD0516EE1BB1EEA2",
+      "spdxElementId": "SPDXRef-Package-53EC9024C9A4C081A67B5A48610E68D31B991D223F828885FCBA6C35649DA5AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1AA6488259668EB8A79953E748D49C63EBB17673F7821DC5FD0516EE1BB1EEA2",
+      "spdxElementId": "SPDXRef-Package-AE8319B7E4A6DA709C479391D548003EAE7B7EA1766D60F3DC192B2F5FC8943F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1AA6488259668EB8A79953E748D49C63EBB17673F7821DC5FD0516EE1BB1EEA2",
+      "spdxElementId": "SPDXRef-Package-4F32DB8906295523841AB08E15C7CF8B39908721FB558EE4D6F2C949561A1BC9"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1AA6488259668EB8A79953E748D49C63EBB17673F7821DC5FD0516EE1BB1EEA2",
+      "spdxElementId": "SPDXRef-Package-796327269B4236A133EA8E2DBC5D4011FF157C2B0E7959F72123742D3E86C14F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1AA6488259668EB8A79953E748D49C63EBB17673F7821DC5FD0516EE1BB1EEA2",
+      "spdxElementId": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474",
+      "spdxElementId": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474",
+      "spdxElementId": "SPDXRef-Package-53EC9024C9A4C081A67B5A48610E68D31B991D223F828885FCBA6C35649DA5AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474",
+      "spdxElementId": "SPDXRef-Package-AE8319B7E4A6DA709C479391D548003EAE7B7EA1766D60F3DC192B2F5FC8943F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474",
+      "spdxElementId": "SPDXRef-Package-4F32DB8906295523841AB08E15C7CF8B39908721FB558EE4D6F2C949561A1BC9"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474",
+      "spdxElementId": "SPDXRef-Package-796327269B4236A133EA8E2DBC5D4011FF157C2B0E7959F72123742D3E86C14F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0E420B56038015F05DDD9E1028A2F59F56D41B7505585A63BEA54613F27FBBF",
+      "spdxElementId": "SPDXRef-Package-53EC9024C9A4C081A67B5A48610E68D31B991D223F828885FCBA6C35649DA5AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0E420B56038015F05DDD9E1028A2F59F56D41B7505585A63BEA54613F27FBBF",
+      "spdxElementId": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0E420B56038015F05DDD9E1028A2F59F56D41B7505585A63BEA54613F27FBBF",
+      "spdxElementId": "SPDXRef-Package-4F32DB8906295523841AB08E15C7CF8B39908721FB558EE4D6F2C949561A1BC9"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0E420B56038015F05DDD9E1028A2F59F56D41B7505585A63BEA54613F27FBBF",
+      "spdxElementId": "SPDXRef-Package-AE8319B7E4A6DA709C479391D548003EAE7B7EA1766D60F3DC192B2F5FC8943F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0E420B56038015F05DDD9E1028A2F59F56D41B7505585A63BEA54613F27FBBF",
+      "spdxElementId": "SPDXRef-Package-49D1A648CBF1058214346606C81C4620B160E4E03C176174A420C920123F2474"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0E420B56038015F05DDD9E1028A2F59F56D41B7505585A63BEA54613F27FBBF",
+      "spdxElementId": "SPDXRef-Package-796327269B4236A133EA8E2DBC5D4011FF157C2B0E7959F72123742D3E86C14F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-AE8319B7E4A6DA709C479391D548003EAE7B7EA1766D60F3DC192B2F5FC8943F",
+      "spdxElementId": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-187EFE2F1CB79DC28F70C62C1D8E0B6D840AF97A56D8D381EC4C4E7A968129CB",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-22B90BFA5C8A28A013C17121C6432D009ABA2F80CF7307735F72E72D37DDD298",
+      "spdxElementId": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-20A197868AB6BF5A7356C0EEAEE38E60926BB560FBB204F44C22F8815E447662",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-EAE852B1299E2919295B31D4C79A091A057A136CFCF7AA87AB74DC1E36BF49BB",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-4F32DB8906295523841AB08E15C7CF8B39908721FB558EE4D6F2C949561A1BC9",
+      "spdxElementId": "SPDXRef-Package-53EC9024C9A4C081A67B5A48610E68D31B991D223F828885FCBA6C35649DA5AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-53EC9024C9A4C081A67B5A48610E68D31B991D223F828885FCBA6C35649DA5AF",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-846C7B671CE0E884005EF626B209AD4D24EBA1FF032B6BA0242D62EC1793AA97",
+      "spdxElementId": "SPDXRef-Package-7FB8593FF8500851C8134780E1D4FFFA51D20C3770D3B4BBE0CE4C31BA6A9CE0"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ICSharpCode.Decompiler 11.1.0.9782",
+  "documentNamespace": "http://spdx.org/spdxdocs/ICSharpCode.Decompiler/ICSharpCode.Decompiler/11.1.0.9782/7e50nkU5E0yvWceNpllPow",
+  "creationInfo": {
+    "created": "2026-09-22T05:32:17Z",
+    "creators": [
+      "Organization: ILSpy Contributors",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
